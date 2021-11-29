@@ -1,0 +1,42 @@
+.jumbotron {
+    height: 15rem;
+}
+
+hr {
+    color: orange;
+}
+
+.centralizar {
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.lead {
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+a:hover {
+    color: orange;
+}
+
+.center {
+    text-align: center;
+}
