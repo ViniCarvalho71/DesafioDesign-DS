@@ -13,16 +13,20 @@
 
 <body>
     <div class="ml-2">
-        <div class="jumbotron bg-dark text-white jumbotron-fluid">
-            <h1 class="display-4">DESENVOLVIMENTO DE SITEMAS</h1>
-            <p class="lead mt-5">CPS - Centro Paula Souza</p>
+        <div class="jumbotron bg-dark text-white jumbotron-fluid ">
+            <div class="container">
+                <h1 class="display-4 ml-5">DESENVOLVIMENTO DE SITEMAS</h1>
+                <p class="lead mt-5 ml-5">CPS - Centro Paula Souza</p>
+            </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div id="my-nav" class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto centralizar">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-target="#my-nav" data-bs-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+            <div id="my-nav" class="collapse navbar-collapse justify-content-md-center">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
                         <a class="nav-link" href="contato.html">Contato</a>
                     </li>
@@ -34,27 +38,45 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </div>
-    <div class="container-fluid">
-        <div class="row justify-content-center  mt-5 ">
-            <div class="col-6-col-sm-4 col-md-3  ">
-                <h1>Descrição</h1>
-                <p>É o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos de dados.
-                </p>
-            </div>
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <img class="img-fluid" src="img/prog.jpg" alt="">
-            </div>
-            <hr class="mt-5">
         </div>
-        <div class="row justify-content-center mt-5  ">
-            <div class="col-6 col-sm-4 col-md-3 ">
-                <img class="img-fluid" src="img/work.jpg" alt="">
+    </nav>
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12-col-sm-8 col-md-4">
+                <div class="card card-css p-3 text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Definição</div>
+                    <div class="card-body">
+                        <h5 class="card-title">O que é?</h5>
+                        <p class="card-text">É o profissional que analisa e projeta sistemas. Constrói, documenta, realiza testes e mantém sistemas de informação. Utiliza ambientes de desenvolvimento e linguagens de programação específica. Modela, implementa e mantém bancos
+                            de dados.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-6-col-sm-4 col-md-3 ">
-                <h1>E quanto ao trabalho?</h1>
-                <p>Empresas e departamentos de desenvolvimento de sistemas em organizações governamentais e não governamentais, podendo também atuar como profissional autônomo.</p>
+            <div class="col-12-col-sm-8 col-md-4">
+                <div class="card card-css p-3 text-white bg-dark mb-3 " style="max-width: 18rem;">
+                    <div class="card-header">Trabalhos</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Com o que irei trabalhar?</h5>
+                        <p class="card-text">Empresas e departamentos de desenvolvimento de sistemas em organizações governamentais e não governamentais, podendo também atuar como profissional autônomo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12-col-sm-8 col-md-4">
+                <div class="card card-css p-3 text-white bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Tecnologias</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Como irei desenvolver?</h5>
+                        <p class="card-text">As técnologias básicas são:</p>
+                        <ul>
+                            <li>PHP</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Jquery</li>
+                            <li>BootStrap</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -78,8 +100,9 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
-<script href="js/jquery-3.6.0.js"></script>
-<script href="js/bootstrap.js"></script>
+
 
 </html>

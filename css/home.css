@@ -6,11 +6,6 @@ hr {
     color: orange;
 }
 
-.centralizar {
-    margin-left: 40%;
-    margin-right: 60%;
-}
-
 img {
     border-radius: 1rem;
 }
@@ -39,4 +34,12 @@ a:hover {
 
 .center {
     text-align: center;
+}
+
+.card-css:hover {
+    color: orange !important;
+}
+
+.card-css {
+    box-shadow: 6px 10px 21px 0px rgba(0, 0, 0, 0.4);
 }
