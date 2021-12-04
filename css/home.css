@@ -43,3 +43,42 @@ a:hover {
 .card-css {
     box-shadow: 6px 10px 21px 0px rgba(0, 0, 0, 0.4);
 }
+
+.prof-css {
+    border-radius: 1rem;
+}
+
+.prof-css>img {
+    align-self: center;
+    margin-top: 1rem;
+}
+
+.prof-css:hover {
+    color: orange !important;
+    box-shadow: 6px 10px 21px 0px rgba(0, 0, 0, 0.4);
+    transition: 1s;
+}
+
+.prof-css>p>button:hover {
+    color: orange !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.assunto {
+    height: 15rem;
+}
+
+form>div>button:hover {
+    color: orange !important;
+}
+
+.form {
+    border-radius: 1rem;
+}
+
+div.centralizar {
+    text-align: center;
+}
