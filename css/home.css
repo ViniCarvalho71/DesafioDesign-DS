@@ -36,6 +36,12 @@ a:hover {
     text-align: center;
 }
 
+.centralizar{
+    display: flex;
+    justify-content: center;
+    text-align: start !important;
+    
+}
 .card-css:hover {
     color: orange !important;
 }
